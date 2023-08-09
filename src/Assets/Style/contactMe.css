@@ -1,0 +1,25 @@
+.div_content_general_contact_me {
+    display: flex;
+}
+
+@media screen and (min-width: 800px) {
+    .div_content_general_contact_me {
+        justify-content: space-around;
+    }
+    .title_content_general_contact_me, .form_content_contact_me {
+        width: 40%;
+    }
+    
+}
+
+
+@media screen and (max-width: 800px) {
+    .div_content_general_contact_me {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title_content_general_contact_me, .form_content_contact_me {
+        width: 90%;
+    }
+}

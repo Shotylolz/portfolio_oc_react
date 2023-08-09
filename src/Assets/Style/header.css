@@ -1,0 +1,42 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.contentHeader {
+    display: flex;
+}
+
+
+.ulHeader {
+    list-style: none;
+    display: flex;
+}
+
+
+
+.nav_header_li a {
+    text-decoration: none;
+    color: black;
+}
+
+@media  screen and (min-width: 500px) {
+    .contentHeader {
+        justify-content: flex-end;
+    }
+    .nav_header_li {
+        margin-right: 40px;
+    }
+}
+
+@media  screen and (max-width: 500px) {
+    .contentHeader {
+        justify-content: center;
+    }
+    .ulHeader {
+        width: 100%;
+        flex-direction: column;
+    }
+    .nav_header_li {
+        margin-bottom : 5px;
+    }
+}

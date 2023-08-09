@@ -1,0 +1,153 @@
+.div_content_general_project_done {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(35,94,184);
+}
+
+.content_project_done {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.good_project_modal {
+    position: fixed;
+    z-index: 2;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal_content {
+    width: 80%;
+    height: 80%;
+    overflow: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div_content_button {
+    width: 90%;
+    margin: 30px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.div_content_button button {
+    display: flex;
+    
+}
+
+
+
+
+.content_pict_principal img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 3px 2px rgba(0, 35, 70, 0.25);
+    object-fit: cover;
+}
+
+.content_text_project {
+    display: flex;
+    flex-direction: column;
+}
+
+.content_competence {
+    display: flex;
+    flex-direction: column;
+}
+
+.content_competence_text {
+    display: flex;
+}
+
+.competence_text {
+    padding: 5px 30px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.picture_of_project {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content_picture_project {
+    width: 48%;
+}
+
+.img_project {
+    width: 100%;
+    height: 250px;
+    margin: 0 0 30px 0;
+    box-shadow: 2px 3px 2px rgba(0, 35, 70, 0.25);
+    object-fit: cover;
+}
+
+/* */
+.grasInfoModal {
+    font-weight: bold;
+}
+
+.competence_text {
+    color : rgb(35,94,184);
+    border: 1px solid #7173D6;
+    border-radius: 23px;
+}
+
+/* */
+
+
+@media screen and (min-width: 800px) {
+    .content_project_done {
+        justify-content: space-evenly;
+    }
+    .div_content_pict_principal_and_text_project {
+        width: 90%;
+        margin: 0 0 100px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .content_pict_principal, .content_text_project {
+        width: 49%;
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .content_project_done {
+        justify-content: center;
+    }
+    .div_content_pict_principal_and_text_project {
+        width: 90%;
+        margin: 0 0 100px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .content_pict_principal, .content_text_project {
+        width: 90%;
+    }
+
+    .content_pict_principal {
+        height: 200px;
+    }
+
+}

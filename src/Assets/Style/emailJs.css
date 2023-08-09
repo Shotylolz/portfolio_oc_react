@@ -1,0 +1,26 @@
+.form_contact_me_emailJs {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom : 5px;
+    color: rgb(35,94,184);
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+#message_form {
+    margin-bottom: 30px;
+    min-height: 100px;
+}
+
+.button_send {
+    width: 100px;
+    padding: 5px 0;
+    color: rgb(35,94,184);
+    font-weight: bold;
+}

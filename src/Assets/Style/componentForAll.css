@@ -1,0 +1,39 @@
+.cadre_project_done {
+    margin : 0 20px 50px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+
+
+.cadre_project_done img {
+    object-fit: cover;
+    box-shadow: 3px 3px px rgba(0,35,70, 0.7);
+    border: 1px solid rgba(0,35,70, 0.15);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadre_project_done img:hover {
+    box-shadow: 3px 3px px rgba(255, 34, 49, 0.7);
+    border: 4px solid rgba(255, 34, 49, 0.7);;
+}
+
+@media screen and (min-width: 800px) {
+    .cadre_project_done img {
+        width: 600px;
+        height: 350px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .cadre_project_done img {
+        width: 100%;
+        height: 350px;
+    }
+
+}

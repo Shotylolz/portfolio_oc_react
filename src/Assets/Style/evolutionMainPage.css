@@ -1,0 +1,52 @@
+.evolution_main_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.div_content_choice_what_i_do {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul_evolution_main_page {
+    padding: 0;
+    border: 1px solid blue;
+    border-radius: 12px;
+}
+
+.choice_nav {
+    padding: 0;
+    width: 180px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice_nav:hover {
+    cursor: pointer;
+}
+
+.selected {
+    background-color: red;
+    border-radius: 12px;
+}
+
+@media screen and (min-width: 800px) {
+    .ul_evolution_main_page {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .ul_evolution_main_page {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
